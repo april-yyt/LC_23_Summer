@@ -1,3 +1,7 @@
+## Array
+
+### Date: 07/18/2023
+
 class Solution(object):
     def isValidSudoku(self, board):
         res = []

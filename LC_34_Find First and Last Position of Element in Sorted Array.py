@@ -1,3 +1,7 @@
+## Array
+
+### Date: 07/17/2023
+
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         return [self.left_bound(nums, target), self.right_bound(nums,target)]
