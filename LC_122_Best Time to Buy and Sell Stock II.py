@@ -17,5 +17,5 @@ class Solution:
                 profit += prices[i]-prices[i-1]
         return profit
 
-## TC: O(n)
-##SC: O(1)
+##### TC: O(n)
+##### SC: O(1)
