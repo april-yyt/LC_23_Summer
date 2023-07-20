@@ -34,6 +34,10 @@ for filename in os.listdir('.'):
 # create a dataframe
 df = pd.DataFrame(data)
 
+# convert 'Date' column to datetime format and sort by date in descending order
+df['Date'] = pd.to_datetime(df['Date'])
+df = df.sort_values('Date', ascending=False)
+
 # write dataframe to README.md
 with open('README.md', 'w') as f:
     f.write(df.to_markdown(index=False))
