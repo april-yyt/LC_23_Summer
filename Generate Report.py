@@ -22,7 +22,7 @@ for filename in os.listdir('.'):
 
         # store the info
         data.append({
-            'LeetCode ID': lc_id,
+            'LC ID': lc_id,
             'Name': lc_name.replace('_', ' '),
             'Topic': ', '.join(topics),
             'Date': date,
