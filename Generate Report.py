@@ -35,7 +35,7 @@ for filename in os.listdir('.'):
 df = pd.DataFrame(data)
 
 # convert 'Date' column to datetime format and sort by date in descending order
-df['Date'] = pd.to_datetime(df['Date'])
+df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%m/%d/%Y')
 df = df.sort_values('Date', ascending=False)
 
 # write dataframe to README.md
