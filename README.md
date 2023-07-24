@@ -1,5 +1,8 @@
 |   ID | Name                                                    | Topic                                    | Date       |
 |-----:|:--------------------------------------------------------|:-----------------------------------------|:-----------|
+|  128 | Longest Consecutive Sequence                            | Array                                    | 07/23/2023 |
+|   68 | Text Justification                                      | Array, String                            | 07/23/2023 |
+|   81 | Search in Rotated Sorted Array II                       | Array, Binary Search                     | 07/23/2023 |
 |   69 | Sqrt(x)                                                 | Array                                    | 07/22/2023 |
 |  844 | Backspace String Compare                                | Array                                    | 07/22/2023 |
 |  367 | Valid Perfect Square                                    | Array                                    | 07/22/2023 |
