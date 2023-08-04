@@ -1,17 +1,19 @@
 |   ID | Name                                                    | Topic                                    | Date       |
 |-----:|:--------------------------------------------------------|:-----------------------------------------|:-----------|
+|  215 | Kth Largest Element in an Array                         | Array, Sorting                           | 08/03/2023 |
+|  179 | Largest Number                                          | Array, Sorting, String                   | 08/03/2023 |
 |  817 | Linked List Components                                  | Linked List                              | 08/02/2023 |
-|  708 | Insert into a Sorted Circular Linked List               | Linked List                              | 08/02/2023 |
 |  379 | Design Phone Directory                                  | Linked List                              | 08/02/2023 |
-|  355 | Design Twitter                                          | Linked List                              | 08/01/2023 |
+|  708 | Insert into a Sorted Circular Linked List               | Linked List                              | 08/02/2023 |
 |  369 | Plus One Linked List                                    | Linked List                              | 08/01/2023 |
+|  355 | Design Twitter                                          | Linked List                              | 08/01/2023 |
 |  114 | Flatten Binary Tree to Linked List                      | Linked List                              | 08/01/2023 |
+|  116 | Populating Next Right Pointers in Each Node             | Linked List                              | 07/31/2023 |
 |  117 | Populating Next Right Pointers in Each Node II          | Linked List                              | 07/31/2023 |
 |  109 | Convert Sorted List to Binary Search Tree               | Linked List                              | 07/31/2023 |
-|  116 | Populating Next Right Pointers in Each Node             | Linked List                              | 07/31/2023 |
+| 1019 | Next Greater Node In Linked List                        | Linked List                              | 07/30/2023 |
 |  725 | Split Linked List in Parts                              | Linked List                              | 07/30/2023 |
 | 1721 | Swapping Nodes in a Linked List                         | Linked List                              | 07/30/2023 |
-| 1019 | Next Greater Node In Linked List                        | Linked List                              | 07/30/2023 |
 |  237 | Delete Node in a Linked List                            | Linked List                              | 07/29/2023 |
 |  146 | LRU Cache                                               | Linked List, Hash Table                  | 07/29/2023 |
 |  382 | Linked List Random Node                                 | Linked List                              | 07/29/2023 |
@@ -27,8 +29,8 @@
 |  160 | Intersection of Two Linked List                         | Linked List, 2 Pointers                  | 07/25/2023 |
 |  125 | Valid Palindrome                                        | Array, Binary Search                     | 07/25/2023 |
 |   61 | Rotate List                                             | String, 2 Pointers                       | 07/25/2023 |
-|  151 | Reverse Words in a String                               | String, 2 Pointers                       | 07/25/2023 |
 |  148 | Sort List                                               | Linked List, 2 Pointers                  | 07/25/2023 |
+|  151 | Reverse Words in a String                               | String, 2 Pointers                       | 07/25/2023 |
 |  170 | Two Sum III - Data structure design                     | Array, Binary Search                     | 07/24/2023 |
 |  165 | Compare Version Numbers                                 | Array, Binary Search                     | 07/24/2023 |
 |  234 | Palindrome Linked List                                  | Array, 2 Pointers                        | 07/24/2023 |
