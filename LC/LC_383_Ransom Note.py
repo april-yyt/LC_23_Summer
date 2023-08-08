@@ -9,6 +9,7 @@ class Solution:
         ransom_count = [0]*26
         magazine_count = [0]*26
         for c in ransomNote:
+            # ord(c)-ord('a) is usually used as the hash function for lower case letters
             ransom_count[ord(c)-ord('a')] += 1
         for c in magazine:
             magazine_count[ord(c)-ord('a')] += 1
