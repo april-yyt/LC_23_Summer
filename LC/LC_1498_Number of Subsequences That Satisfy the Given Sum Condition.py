@@ -4,16 +4,14 @@
 
 class Solution:
     def numSubseq(self, nums: List[int], target: int) -> int:
-        nums.sort()
-        ans = 0
         i,j = 0, len(nums)-1
+        c, mod = 0, (10**9+7)
+        nums.sort()
         while i <= j:
-            if nums[i]+nums[j] > target:
-                # examine the next largest element
-                j -= 1
-            else:
-                # any element from i to j-1 can be included in the sequence
-                ans += 2 **(j-1)
-                ans  = ans % (10**9+7)
+            # if sum <= target, subsequence valid
+            if nums[i]+nums[j] <= target:
+                c += pow(2, (j-1), mod) # use pow for 2^(j-1) 
                 i += 1
-        return ans%(10*9+7)
+            else:
+                j -= 1
+        return c % mod
